@@ -2,13 +2,10 @@
 
 import React from 'react';
 import { 
-  Code, 
   Database, 
   Gamepad2, 
   Briefcase, 
   Monitor, 
-  Server, 
-  Smartphone, 
   Palette,
   Brain,
   Users
@@ -236,7 +233,7 @@ const Skills = () => {
             Ready to put these skills to work?
           </h3>
           <p className="text-gray-700 mb-6">
-            Let's discuss how my unique combination of technical and business skills can help your project succeed.
+            Let&apos;s discuss how my unique combination of technical and business skills can help your project succeed.
           </p>
           <button
             onClick={() => {
@@ -245,7 +242,7 @@ const Skills = () => {
             }}
             className="bg-xtremery-purple text-white px-8 py-3 rounded-lg hover:bg-xtremery-purple/90 transition-all duration-300 font-medium hover:scale-105"
           >
-            Let's Talk
+            Let&apos;s Talk
           </button>
         </div>
       </div>

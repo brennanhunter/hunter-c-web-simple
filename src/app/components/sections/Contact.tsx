@@ -100,11 +100,11 @@ const Contact = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Let's Build Something Together
+            Let&apos;s Build Something Together
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            If you're looking for someone with a bulletproof path and a Fortune 500 pedigree, I'm probably not your guy. 
-            But if you want someone who's smart, scrappy, and brings real-world results to the table—I'm ready to go.
+            If you&apos;re looking for someone with a bulletproof path and a Fortune 500 pedigree, I&apos;m probably not your guy. 
+            But if you want someone who&apos;s smart, scrappy, and brings real-world results to the table—I&apos;m ready to go.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
               <p className="text-gray-300 mb-8 leading-relaxed">
                 Ready to discuss your next project? Whether you need a full-stack developer who understands business, 
-                someone to build your SaaS platform, or just want to chat about tech and games - I'd love to hear from you.
+                someone to build your SaaS platform, or just want to chat about tech and games - I&apos;d love to hear from you.
               </p>
             </div>
 
@@ -170,7 +170,7 @@ const Contact = () => {
 
             {/* What I'm Looking For */}
             <div className="bg-gray-800 p-6 rounded-lg">
-              <h4 className="text-lg font-semibold text-white mb-3">What I'm Looking For</h4>
+              <h4 className="text-lg font-semibold text-white mb-3">What I&apos;m Looking For</h4>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-aqua-spark rounded-full mt-2 flex-shrink-0"></span>
@@ -199,7 +199,7 @@ const Contact = () => {
             {submitStatus === 'success' && (
               <div className="mb-6 p-4 bg-green-900/50 border border-green-500 rounded-lg flex items-center gap-3">
                 <CheckCircle size={20} className="text-green-400" />
-                <span className="text-green-300">Message sent successfully! I'll get back to you soon.</span>
+                <span className="text-green-300">Message sent successfully! I&apos;ll get back to you soon.</span>
               </div>
             )}
 
@@ -314,7 +314,7 @@ const Contact = () => {
           <h3 className="text-2xl font-bold text-white mb-4">Ready to Start Something Great?</h3>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
             Whether you need a developer who gets business, want to build the next big SaaS platform, 
-            or just want to chat about accessibility in gaming - let's make it happen.
+            or just want to chat about accessibility in gaming - let&apos;s make it happen.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

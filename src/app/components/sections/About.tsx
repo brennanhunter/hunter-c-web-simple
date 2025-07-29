@@ -46,15 +46,15 @@ const About = () => {
           {/* Story Section */}
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              I'm a creative problem-solver who blends tech skills, street smarts, and empathy. 
-              I don't have a traditional resume—because I've never followed a traditional path.
+              I&apos;m a creative problem-solver who blends tech skills, street smarts, and empathy. 
+              I don&apos;t have a traditional resume—because I&apos;ve never followed a traditional path.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               I build websites, fix computers, coach people, design games, and raise kids—and I 
-              bring curiosity, grit, and follow-through to everything I touch. If you're looking 
-              for a checkbox candidate, keep scrolling. If you're looking for someone who gets 
-              things done and makes people better in the process, let's talk.
+              bring curiosity, grit, and follow-through to everything I touch. If you&apos;re looking 
+              for a checkbox candidate, keep scrolling. If you&apos;re looking for someone who gets 
+              things done and makes people better in the process, let&apos;s talk.
             </p>
             
             {/* What I Bring */}
@@ -86,7 +86,7 @@ const About = () => {
               <div className="space-y-3 text-gray-700">
                 <p className="flex items-start gap-3">
                   <span className="text-xtremery-purple">✦</span>
-                  <span>Figure-it-out energy. I'll Google it, build it, break it, fix it, and come back with a better version.</span>
+                  <span>Figure-it-out energy. I&apos;ll Google it, build it, break it, fix it, and come back with a better version.</span>
                 </p>
                 <p className="flex items-start gap-3">
                   <span className="text-aqua-spark">✦</span>
@@ -94,7 +94,7 @@ const About = () => {
                 </p>
                 <p className="flex items-start gap-3">
                   <span className="text-xtremery-blue">✦</span>
-                  <span>Creative thinker who doesn't give up when things get weird or hard.</span>
+                  <span>Creative thinker who doesn&apos;t give up when things get weird or hard.</span>
                 </p>
               </div>
             </div>

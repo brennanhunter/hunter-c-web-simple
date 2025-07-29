@@ -342,7 +342,7 @@ const Projects = () => {
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Real projects with real impact. From production SaaS platforms to local businesses 
-            to creative showcases - here's how I solve problems and create value.
+            to creative showcases - here&apos;s how I solve problems and create value.
           </p>
         </div>
 
@@ -374,7 +374,7 @@ const Projects = () => {
             Want to see more or discuss a project?
           </h3>
           <p className="text-gray-300 mb-6">
-            I'm always excited to talk about new challenges and opportunities.
+            I&apos;m always excited to talk about new challenges and opportunities.
           </p>
           <button
             onClick={() => {
