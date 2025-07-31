@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/sections/Header";
 import Footer from "./components/sections/Footer";
 
 const geistSans = Geist({
@@ -54,9 +53,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#111827] text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#111827] text-white overflow-y-scroll`}
       >
-        <Header />
         <main className="min-h-screen">
           {children}
         </main>
