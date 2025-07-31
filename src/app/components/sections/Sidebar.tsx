@@ -193,7 +193,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onHueChange, onTriggerAnimation }) =>
 
       {/* Fun Quote Section */}
       <div className="p-6 border-t border-white/10 text-center text-sm text-white/80 bg-black/20 backdrop-blur-sm rounded-lg mx-4 mb-4">
-        <p className="mb-2 italic text-[#00FFD1]/90 drop-shadow-lg">"{randomQuote}"</p>
+        <p className="mb-2 italic text-[#00FFD1]/90 drop-shadow-lg">&apos;{randomQuote}&apos;</p>
         <span className="drop-shadow-lg">© {new Date().getFullYear()} Hunter Coleman</span>
       </div>
 
