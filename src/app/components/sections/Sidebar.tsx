@@ -119,7 +119,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onHueChange, onTriggerAnimation }) =>
       >
         <div className="relative mb-4 group">
           <Image
-            src="/images/headshot.jpg"
+            src="/images/hunter-headshot.jpg"
             alt="Hunter Coleman"
             width={120}
             height={120}
