@@ -3,11 +3,14 @@
 import React, { useEffect, useRef } from 'react';
 import { Mail, MapPin, ArrowDown } from 'lucide-react';
 import * as THREE from 'three';
+import ScrambleText, { ScrambleTextHandle } from '../ui/TextScrambler';
 
 const Hero: React.FC = () => {
   const mountRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<number | null>(null);
   const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
+  const scrambleRef1 = useRef<ScrambleTextHandle>(null);
+  const scrambleRef2 = useRef<ScrambleTextHandle>(null);
 
   useEffect(() => {
     if (!mountRef.current) return;
@@ -174,7 +177,7 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen flex items-center overflow-hidden"
+      className="relative min-h-screen flex items-center overflow-hidden pl-[22%]"
       style={{ backgroundColor: '#000' }} // Black background like original
     >
       {/* WebGL Canvas - same as original CodePen */}
@@ -196,28 +199,42 @@ const Hero: React.FC = () => {
           
           {/* Subtitle */}
           <h2 className="text-2xl md:text-3xl text-aqua-spark mb-8 font-medium">
-            Full-Stack Developer
+            Next.js & Full-Stack Developer
           </h2>
           
           {/* Description */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Building businesses and the code that runs them. From PC repair shops to web applications, 
-            I create solutions that actually work for real people.
+            Building modern web applications with Next.js, React, and TypeScript. From business websites 
+            to full-stack applications, I create digital solutions that work for real people.
           </p>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
             <button 
               onClick={scrollToProjects}
-              className="bg-aqua-spark text-deep-navy px-8 py-3 rounded-lg hover:bg-aqua-spark/90 transition-all duration-300 font-medium hover:scale-105"
+              onMouseEnter={() => scrambleRef1.current?.startScramble()}
+              className="bg-aqua-spark text-deep-navy px-8 py-3 rounded-lg hover:bg-xtremery-purple hover:text-aqua-spark transition-all duration-300 font-medium hover:scale-105"
             >
-              View My Work
+              <ScrambleText 
+                ref={scrambleRef1} 
+                speed={40}
+                scrambleChars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()"
+              >
+                View My Work
+              </ScrambleText>
             </button>
             <button 
               onClick={scrollToContact}
+              onMouseEnter={() => scrambleRef2.current?.startScramble()}
               className="border-2 border-xtremery-purple text-white px-8 py-3 rounded-lg hover:bg-xtremery-purple/20 transition-all duration-300 font-medium"
             >
-              Get In Touch
+              <ScrambleText 
+                ref={scrambleRef2} 
+                speed={47}
+                scrambleChars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()"
+              >
+                Get In Touch
+              </ScrambleText>
             </button>
           </div>
           

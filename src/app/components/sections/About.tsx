@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Briefcase, Gamepad2, Code, Users } from 'lucide-react';
+import { Briefcase, Code, Users, Globe } from 'lucide-react';
 
 const About = () => {
   const journeyItems = [
@@ -13,16 +13,16 @@ const About = () => {
       iconColor: "text-xtremery-purple"
     },
     {
-      icon: Gamepad2,
-      title: "Game Designer",
-      description: "Lead designer on indie titles, Unreal Engine",
+      icon: Globe,
+      title: "Web Developer",
+      description: "Modern full-stack applications with Next.js",
       color: "border-xtremery-blue",
       iconColor: "text-xtremery-blue"
     },
     {
       icon: Code,
       title: "Developer",
-      description: "Full-stack web development, modern frameworks",
+      description: "TypeScript, React, Node.js, and modern frameworks",
       color: "border-aqua-spark",
       iconColor: "text-aqua-spark"
     },
@@ -36,7 +36,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-off-white">
+    <section id="about" className="py-20 bg-off-white pl-[22%]">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-deep-navy mb-12">
           About Me
@@ -51,10 +51,10 @@ const About = () => {
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              I build websites, fix computers, coach people, design games, and raise kids—and I 
-              bring curiosity, grit, and follow-through to everything I touch. If you&apos;re looking 
-              for a checkbox candidate, keep scrolling. If you&apos;re looking for someone who gets 
-              things done and makes people better in the process, let&apos;s talk.
+              I build modern web applications, solve complex problems, and create digital solutions—and I 
+              bring curiosity, technical expertise, and follow-through to everything I develop. If you&apos;re looking 
+              for a checkbox candidate, keep scrolling. If you&apos;re looking for someone who builds great products 
+              and collaborates effectively, let&apos;s talk.
             </p>
             
             {/* What I Bring */}
@@ -67,11 +67,11 @@ const About = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-xtremery-blue rounded-full mt-2 flex-shrink-0"></span>
-                  <span>Understanding what customers actually need</span>
+                  <span>Full-stack development with Next.js, React, and TypeScript</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-aqua-spark rounded-full mt-2 flex-shrink-0"></span>
-                  <span>Creative problem-solving from game design background</span>
+                  <span>Creative problem-solving and user-focused design</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></span>

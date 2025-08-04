@@ -43,7 +43,7 @@ export default function Home() {
     >
       <Sidebar onHueChange={handleHueChange} onTriggerAnimation={triggerAnimation} />
       <motion.div
-        className="flex-1 pl-[30%]"
+        className="flex-1"
         variants={sectionVariants}
         animate={animateSections ? 'animate' : 'initial'}
       >

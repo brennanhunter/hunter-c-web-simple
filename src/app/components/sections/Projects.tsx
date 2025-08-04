@@ -333,7 +333,7 @@ const Projects = () => {
   );
 
   return (
-    <section id="projects" className="py-20 bg-deep-navy">
+    <section id="projects" className="py-20 bg-deep-navy pl-[22%]">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
